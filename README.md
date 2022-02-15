@@ -10,6 +10,7 @@ For the connection we need only three information: **client_id**, **client_secre
 
 The tricky part here is how to setup a service principal both in Azure and in PowerBI application, you have many different ways to achieve it here, but the way it worked best for me was following these two tutorials:
 >[Enable service principal authentication for read-only admin APIs](https://docs.microsoft.com/en-us/power-bi/admin/read-only-apis-service-principal-authentication)
+>
 >[Set up metadata scanning in your organization](https://docs.microsoft.com/en-us/power-bi/admin/service-admin-metadata-scanning-setup)
 
 But if you already have a service principal and a PowerBI already configured you can skip this step.
